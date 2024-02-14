@@ -1,0 +1,53 @@
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  over-flow: hidden;
+  display: flex;
+  flex-direction: column;
+  justoify-content: flex-start;
+}
+.box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.slider {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  /* gap: 20px; */
+}
+
+ .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ }
+
+ table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.btn{
+  background-color: transparent;
+  border: none;
+  
+}
